@@ -60,7 +60,7 @@ void getLogin()
 int main()
 {
   HWND hwnd = findWindow("GameHaxr.exe");
-  if (hwnd != "GameHaxr.exe)
+  if (hwnd != "GameHaxr.exe")
       {
         system("color 4");
         cout << "Error_404: Failed to locate 'GameHaxr'! Ensure it's running." << endl;
